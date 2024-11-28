@@ -30,19 +30,22 @@ body {
 }
 
 .loader {
-  border: 8px solid black; /* Light gray border */
-  border-top: 8px solid gold; /* Gold color for the top part */
-  border-radius: 50%; /* Circular spinner */
-  width: 100px; /* Size of the spinner */
-  height: 100px; /* Size of the spinner */
-  animation: spin 1.5s linear infinite; /* Animation to spin the loader */
+  width: 160px;
+  aspect-ratio: 2;
+  --_g: no-repeat radial-gradient(circle closest-side,gold 90%,#0000);
+  background: 
+    var(--_g) 0%   50%,
+    var(--_g) 50%  50%,
+    var(--_g) 100% 50%;
+  background-size: calc(100%/3) 50%;
+  animation: l3 1s infinite linear;
 }
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+@keyframes l3 {
+    20%{background-position:0%   0%, 50%  50%,100%  50%}
+    40%{background-position:0% 100%, 50%   0%,100%  50%}
+    60%{background-position:0%  50%, 50% 100%,100%   0%}
+    80%{background-position:0%  50%, 50%  50%,100% 100%}
 }
-
 
 nav {
   width: 100%;
@@ -138,7 +141,7 @@ nav .menu {
   width: 0; /* Start with no underline */
   height: 4px; /* Adjust thickness of the underline */
   background-color: gold; /* Underline color */
-  transition: width 0.3s ease-in-out; /* Transition for the width */
+  transition: width 0.3s linear; /* Transition for the width */
 }
 
 .menu ul a:hover::after {
@@ -655,7 +658,8 @@ nav label.cancel {
 .contact-list a,
 .footer-links a {
   text-decoration: none;
-  color: gold;
+  color: whitesmoke;
+
   font-weight: bold;
   transition: color 0.3s ease;
 }

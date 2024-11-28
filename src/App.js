@@ -26,7 +26,8 @@ setLoading(false)
       <Footer/>
       </>:
       <div className="loader-container">
-      <div className="loader"></div> {/* This is the spinner */}
+     <div class="loader"></div>
+
     </div>
     }
   
