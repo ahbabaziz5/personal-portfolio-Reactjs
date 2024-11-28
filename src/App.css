@@ -13,6 +13,37 @@ body {
 
 }
 
+
+/* loader */
+/* Loader.css */
+.loader-container {
+  position: fixed; /* Fixed position to cover the entire viewport */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black; /* Optional: semi-transparent background */
+  z-index: 9999; /* Makes sure the loader appears on top of everything else */
+}
+
+.loader {
+  border: 8px solid black; /* Light gray border */
+  border-top: 8px solid gold; /* Gold color for the top part */
+  border-radius: 50%; /* Circular spinner */
+  width: 100px; /* Size of the spinner */
+  height: 100px; /* Size of the spinner */
+  animation: spin 1.5s linear infinite; /* Animation to spin the loader */
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
 nav {
   width: 100%;
   padding: 12px 0;
@@ -99,10 +130,20 @@ nav .menu {
   color: #31344b;
 }
 
-.menu ul a:hover {
-  color: gold;
+.menu ul a::after {
+  content: ''; /* Create an empty pseudo-element */
+  position: absolute;
+  bottom: 0; /* Position the line below the text */
+  left: 0;
+  width: 0; /* Start with no underline */
+  height: 4px; /* Adjust thickness of the underline */
+  background-color: gold; /* Underline color */
+  transition: width 0.3s ease-in-out; /* Transition for the width */
 }
 
+.menu ul a:hover::after {
+  width: 100%; /* Underline takes full width on hover */
+}
 nav label.btn {
   color: #31344b;
   font-size: 18px;

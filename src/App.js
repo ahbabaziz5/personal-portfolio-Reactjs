@@ -6,17 +6,31 @@ import About from './component/About';
 import Skills from './component/Skills';
 import Projects from './component/Projects';
 import Footer from './component/Footer';
+import { useState } from 'react';
 
 function App() {
+  const[loading,setLoading]=useState(true)
+  setTimeout(()=>{
+setLoading(false)
+  },1000)
   return (
-    <>
-   <Navbar/>
-   <Hero/>
-   <About/>
-   <Skills/>
-   <Projects/>
-   <Footer/>
-   </>
+    <div>
+    {
+      !loading ? 
+      <>
+      <Navbar/>
+      <Hero/>
+      <About/>
+      <Skills/>
+      <Projects/>
+      <Footer/>
+      </>:
+      <div className="loader-container">
+      <div className="loader"></div> {/* This is the spinner */}
+    </div>
+    }
+  
+   </div>
   );
 }
 
