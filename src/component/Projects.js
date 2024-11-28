@@ -5,7 +5,7 @@ const Projects = () => {
     <div>
       
   <section id="projects" class="projects-section" >
-    <h2 class="section-title">My Projects</h2>
+    <h2 class="section-title">My <span class="project">Projects</span></h2>
     <div class="projects-container">
       <div class="project-card">
         <img src="./Images/Project.jfif" alt="Project 1" class="project-image" />

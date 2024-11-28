@@ -100,7 +100,7 @@ nav .menu {
 }
 
 .menu ul a:hover {
-  color: yellow;
+  color: gold;
 }
 
 nav label.btn {
@@ -191,7 +191,7 @@ nav label.cancel {
 
 .hero-content h2 {
   font-size: 24px;
-  color: #48cae4;
+  color: gold;
 }
 
 .hero-content h1 {
@@ -205,7 +205,7 @@ nav label.cancel {
 }
 
 .highlight {
-  color: #00b4d8;
+  color: gold;
 }
 
 .hero-content p {
@@ -221,20 +221,20 @@ nav label.cancel {
 }
 
 .social-icons a {
-  color: #00b4d8;
+  color: gold;
   margin: 0 10px;
   font-size: 24px;
   transition: color 0.3s ease;
 }
 
 .social-icons a:hover {
-  color: #48cae4;
+  color: gold;
 }
 
 .btn {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #02a6c7;
+  background-color: gold;
   color: #0a192f;
   font-size: 16px;
   font-weight: bold;
@@ -255,8 +255,8 @@ nav label.cancel {
   overflow: hidden;
   width: 300px;
   height: 300px;
-  border: 8px solid #00b4d8;
-  box-shadow: 0px 0px 20px rgba(0, 180, 216, 0.5);
+  border: 8px solid gold;
+  box-shadow: 0px 0px 20px rgba(184, 216, 0, 0.5);
   /* animation: glow 2s infinite alternate; */
 
 }
@@ -355,7 +355,7 @@ nav label.cancel {
   margin-top: 10px;
 }
 .txt-Me{
-  color: #48cae4;
+  color: gold;
   ;
 
 }
@@ -372,7 +372,7 @@ nav label.cancel {
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  border: 6px solid #00b4d8;
+  border: 6px solid gold;
   margin-left: 20px;
   /* box-shadow: 0 0 30px rgba(0, 255, 255, 0.6); */
 }
@@ -383,7 +383,8 @@ nav label.cancel {
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(135, 245, 245, 0.4), transparent);
+  background: radial-gradient(circle, rgba(255, 215, 0, 0.6), rgba(255, 223, 128, 0) );
+
   margin-left: 20px;
   animation: glow 2s infinite alternate;
 }
@@ -400,7 +401,7 @@ nav label.cancel {
 .more-button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #02a6c7;
+  background-color: gold;
   color: #0a192f;
   font-size: 16px;
   font-weight: bold;
@@ -458,7 +459,7 @@ nav label.cancel {
 
 .skill-icon {
   font-size: 3rem;
-  color: #00b4d8;
+  color: gold;
   margin-bottom: 15px;
 }
 
@@ -479,7 +480,7 @@ nav label.cancel {
 
 .progress {
   height: 100%;
-  background-color: #00b4d8;
+  background-color: gold;
   transition: width 0.5s ease-in-out;
 }
 
@@ -502,6 +503,9 @@ nav label.cancel {
   /* text-align: center; */
   padding-bottom: 20px;
 
+}
+.project{
+  color:gold;
 }
 
 .projects-container {
@@ -537,7 +541,7 @@ nav label.cancel {
 
 .project-info h3 {
   font-size: 1.5rem;
-  color: #00b4d8;
+  color: gold;
   margin-bottom: 10px;
 }
 
@@ -550,15 +554,15 @@ nav label.cancel {
 .project-link {
   text-decoration: none;
   font-weight: bold;
-  color: #00b4d8;
-  border: 2px solid #00b4d8;
+  color: gold;
+  border: 2px solid gold;
   padding: 8px 15px;
   border-radius: 5px;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .project-link:hover {
-  background-color: #00b4d8;
+  background-color: gold;
   color: #0d1b2a;
 }
 
@@ -591,7 +595,7 @@ nav label.cancel {
 
 .footer-column h3 {
   font-size: 1.5rem;
-  color: #00b4d8;
+  color: gold;
   margin-bottom: 15px;
 }
 
@@ -610,14 +614,14 @@ nav label.cancel {
 .contact-list a,
 .footer-links a {
   text-decoration: none;
-  color: #00b4d8;
+  color: gold;
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
 .contact-list a:hover,
 .footer-links a:hover {
-  color: #48cae4;
+  color: gold;
 }
 
 .social-icons {
@@ -628,7 +632,7 @@ nav label.cancel {
 
 .social-icons a {
   font-size: 1.5rem;
-  color: #00b4d8;
+  color: gold;
   transition: transform 0.3s ease;
 }
 
