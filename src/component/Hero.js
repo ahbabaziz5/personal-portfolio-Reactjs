@@ -21,7 +21,8 @@ const Hero = () => {
       <a href="#about" class="btn">More About Me</a>
   </div>
   <div class="profile-picture">
-      <img src="" alt=""/>
+      <img src="/port1.jpeg" alt=""/>
+      {/* <img src="/portfolio.jpeg" alt=""/> */}
   </div>
 </section>
     </div>

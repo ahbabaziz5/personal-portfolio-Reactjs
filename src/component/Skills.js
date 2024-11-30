@@ -50,12 +50,13 @@ const Skills = () => {
         </div>
         <div className="skill">
           <i className="fab fa-microsoft skill-icon"></i>
-          <h3>C# (Windows Form)</h3>
+          <h3>NEXTJS</h3>
           <div className="progress-bar">
             <div className="progress" style={{ width: '40%' }}></div>
           </div>
           <span className="skill-percent">40%</span>
         </div>
+
         <div className="skill">
           <i className="fas fa-database skill-icon"></i>
           <h3>SQL <br />Server</h3>
@@ -64,8 +65,17 @@ const Skills = () => {
           </div>
           <span className="skill-percent">30%</span>
         </div>
+      
+        <div className="skill">
+          <i className="fas fa-database skill-icon"></i>
+          <h3>Node  <br />JS</h3>
+          <div className="progress-bar">
+            <div className="progress" style={{ width: '30%' }}></div>
+          </div>
+          <span className="skill-percent">30%</span>
+        </div>
       </div>
-    </section>
+    </section>S
     </div>
   )
 }

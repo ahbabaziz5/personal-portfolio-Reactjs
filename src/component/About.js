@@ -5,7 +5,7 @@ const About = () => {
     <div>
        <section className="about-me" id="about"> 
       <div className="profile-image">
-        <img src="./Images/azeem.jfif" alt="Profile Picture" />
+        <img src="/port1.jpeg" alt="Profile Picture" />
       </div>
       <div className="about-content">
         <h1>
