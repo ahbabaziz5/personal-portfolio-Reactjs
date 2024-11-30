@@ -7,6 +7,7 @@ import Skills from './component/Skills';
 import Projects from './component/Projects';
 import Footer from './component/Footer';
 import { useState } from 'react';
+import Contact from './component/Contact';
 
 function App() {
   const[loading,setLoading]=useState(true)
@@ -23,6 +24,7 @@ setLoading(false)
       <About/>
       <Skills/>
       <Projects/>
+      <Contact/>
       <Footer/>
       </>:
       <div className="loader-container">

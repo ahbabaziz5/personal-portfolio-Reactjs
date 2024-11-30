@@ -612,7 +612,101 @@ nav label.cancel {
 
 /* Contact Section */
 
+.contact-section {
+  padding: 40px;
+  background-color: #f5f5f5;
+  text-align: center;
+  background-color: black;
 
+
+}
+.contact-section-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact-form,
+.contact-info {
+  flex: 1;
+  padding: 20px;
+}
+.contact-section h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: whitesmoke;
+}
+
+.contact-section p {
+  font-size: 18px;
+  margin-bottom: 40px;
+  color: whitesmoke;
+
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea 
+ {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background-color: black;
+  border: none;
+  /* padding:15px 30px; */
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  color: gold;
+  border: 2px solid gold;
+  padding: 16px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.contact-form button:hover{
+  background-color: gold;
+  color: #0d1b2a;
+}
+.contact-info {
+  margin-top: -96px;
+}
+
+.contact-info h3 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+  color: whitesmoke;
+}
+
+.contact-info li {
+  margin-bottom: 10px;
+}
+
+.contact-info a {
+  color: gold;
+  text-decoration: 
+ none;
+}
 
 
 
