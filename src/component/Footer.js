@@ -29,16 +29,16 @@ const Footer = () => {
           <h3>Stay Connected</h3>
           <p>Follow me on social platforms:</p>
           <div className="social-icons">
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://facebook.com/ahbabkhan" target="_blank" >
         <FontAwesomeIcon icon={faFacebookF} />
       </a>
-      <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+      <a href="https://instagram.com/muhammadahbabkhan" target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon icon={faInstagram} />
       </a>
-      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+      <a href="https://linkedin.com/muhammadahbabkhan" target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon icon={faLinkedinIn} />
       </a>
-      <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/ahbabaziz5" target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon icon={faGithub} />
       </a>
           </div>
