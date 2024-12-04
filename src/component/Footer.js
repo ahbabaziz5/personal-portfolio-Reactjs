@@ -1,4 +1,7 @@
-import React from 'react'
+import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebookF, faInstagram, faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
+
 
 const Footer = () => {
   return (
@@ -26,11 +29,18 @@ const Footer = () => {
           <h3>Stay Connected</h3>
           <p>Follow me on social platforms:</p>
           <div className="social-icons">
-            <a href="#"><i className="fab fa-facebook-f"></i></a>
-            <a href="#"><i className="fab fa-instagram"></i></a>
-            <a href="#"><i className="fab fa-linkedin-in"></i></a>
-            <a href="#"><i className="fab fa-github"></i></a>
-            {/* <a href="#"><i className="fab fa-tiktok"></i></a> */}
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+        <FontAwesomeIcon icon={faFacebookF} />
+      </a>
+      <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+        <FontAwesomeIcon icon={faInstagram} />
+      </a>
+      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+        <FontAwesomeIcon icon={faLinkedinIn} />
+      </a>
+      <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+        <FontAwesomeIcon icon={faGithub} />
+      </a>
           </div>
         </div>
       </div>
