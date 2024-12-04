@@ -764,13 +764,13 @@ nav label.cancel {
     display: flex;
     align-items: end;
   }
-  .contact-section-content{
+  /* .contact-section-content{
     flex-direction:column;
     row-gap:100px
   }
-  .contact-form{
+  .contact-form{s
     width:100%
-  }
+  } */
 }
 @media (min-width: 768px) {
   .hero {
@@ -794,7 +794,7 @@ nav label.cancel {
     margin-top:75px;
     height:70vh !important;
   }
-  .contact-section-content{
+  /* .contact-section-content{
     flex-direction:column
-  }
+  } */
 }

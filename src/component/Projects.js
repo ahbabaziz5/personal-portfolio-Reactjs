@@ -7,20 +7,23 @@ const Projects = () => {
   <section id="projects" class="projects-section" >
     <h2 class="section-title">My <span class="project">Projects</span></h2>
     <div class="projects-container">
+
       <div class="project-card">
         <img src="./Images/Project.jfif" alt="Project 1" class="project-image" />
         <div class="project-info">
-          <h3>Portfolio Website</h3>
+          <h3>News App Website</h3>
           <p>A personal portfolio showcasing my skills and work.</p>
-          <a href="#" class="project-link" target="_blank">View Project</a>
+          <a href="https://chimerical-dolphin-0c219a.netlify.app/" class="project-link">View Project</a>
+
         </div>
       </div>
-      <div class="project-card">
+
+      <div class="project-card">s
         <img src="./Images/Project.jfif" alt="Project 2" class="project-image" />
         <div class="project-info">
           <h3>E-Commerce Website</h3>
           <p>Developed an online store with user-friendly features.</p>
-          <a href="#" class="project-link" target="_blank">View Project</a>
+          <a href="https://movie-app-pied-zeta.vercel.app" class="project-link">View Project</a>
         </div>
       </div>
       <div class="project-card">
