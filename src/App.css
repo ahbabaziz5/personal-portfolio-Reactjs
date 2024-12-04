@@ -689,7 +689,7 @@ nav label.cancel {
     padding-top: 90px;
     height: 100%;
     background: #ecf0f3;
-    box-shadow: 0 5px 10px gold;
+    box-shadow: 0 5px 10px rgb(206, 197, 148);
     z-index: 12;
     transition: all 0.3s ease;
     background-color: black;
@@ -726,9 +726,8 @@ nav label.cancel {
 }
 @media(max-width:575px) {
   .hero {
-    height: 165vh;
-    /* padding-top:100px; */
-    /* flex-direction: column-reverse; */
+    height: 150vh;
+   
 
   }
   .about-me {
