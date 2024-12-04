@@ -689,10 +689,10 @@ nav label.cancel {
     padding-top: 45px;
     height: 100%;
     background: #ecf0f3;
-    box-shadow: 0 5px 10px #b0b0b5;
+    box-shadow: 0 5px 10px gold;
     z-index: 12;
     transition: all 0.3s ease;
-    background-color: #0a192f;
+    background-color: black;
   }
 
   .menu ul a {

@@ -13,7 +13,12 @@ const Navbar = () => {
     <div>
     <nav>
       <div className="menu">
-      
+        <input
+          type="checkbox"
+          id="check"
+          // checked={checked}
+          // onChange={handleCheck}
+        />
         <div className="logo">
           <a href="#">Portfolio</a>
         </div>
