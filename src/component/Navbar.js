@@ -1,7 +1,8 @@
 import React,{useState} from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTimes } from '@fortawesome/free-solid-svg-icons';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 const Navbar = () => {
   const[open,setOpen]=useState(true)
   
@@ -23,7 +24,7 @@ const Navbar = () => {
         </div>
         <ul>
           <label className="btn cancel" htmlFor="check">
-            <i className="fas fa-times"></i>
+          <FontAwesomeIcon icon={faTimes} />
           </label>
           <li><a href="#Hero">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -33,7 +34,7 @@ const Navbar = () => {
           <li><a href="#footer">Contact</a></li>
         </ul>
         <label htmlFor="check" className="btn bars">
-          <i className="fas fa-bars"></i>
+        <FontAwesomeIcon icon={faBars} />
         </label>
       </div>
     </nav>
