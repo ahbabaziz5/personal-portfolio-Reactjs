@@ -726,7 +726,7 @@ nav label.cancel {
 }
 @media(max-width:575px) {
   .hero {
-    height: 145vh;
+    height: 165vh;
     /* padding-top:100px; */
     /* flex-direction: column-reverse; */
 
@@ -850,6 +850,9 @@ nav label.cancel {
 
   .contact-info ul {
     font-size: 14px;
+  }
+  .social-icons{
+    justify-content: center;;
   }
 }
 
