@@ -772,6 +772,10 @@ nav label.cancel {
   .contact-form{s
     width:100%
   } */
+  .menu ul a:hover::after{
+   width:33%;
+   left:130px 
+  }
 }
 @media (min-width: 768px) {
   .hero {
@@ -798,6 +802,7 @@ nav label.cancel {
   /* .contact-section-content{
     flex-direction:column
   } */
+ 
 }
 /* Small screens (mobile devices) */
 @media (max-width: 600px) {
