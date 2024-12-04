@@ -774,7 +774,7 @@ nav label.cancel {
   } */
   .menu ul a:hover::after{
    width:33%;
-   left:130px 
+   left:125px 
   }
 }
 @media (min-width: 768px) {
@@ -784,7 +784,10 @@ nav label.cancel {
     text-align: left;
     height:100vh
   }
-
+  .menu ul a:hover::after{
+    width:50%;
+    left:100px 
+   }
   .hero-content {
     max-width: none;
     text-align: left;
