@@ -862,6 +862,9 @@ nav label.cancel {
   .social-icons{
     justify-content: center;;
   }
+  .menu .logo a{
+    margin-left:0;
+  }
 }
 
 /* Medium screens (tablets and smaller desktops) */
@@ -914,6 +917,9 @@ nav label.cancel {
 
   .contact-info ul {
     font-size: 16px;
+  }
+  .menu .logo a{
+    margin-left:15px;
   }
 }
 
