@@ -418,7 +418,19 @@ nav label.cancel {
   background-color: gold;
   transition: width 0.5s ease-in-out;
 }
+[data-aos="progress-fill"] {
+  animation: fillProgress 2s forwards;  /* Animation to fill progress bar */
+}
 
+/* Keyframes for filling progress bar */
+@keyframes fillProgress {
+  0% {
+    width: 0%; /* Start from 0% width */
+  }
+  100% {
+    width: 100%; /* End at 100% width (or based on the skill level) */
+  }
+}
 .skill-percent {
   font-size: 1rem;
   color: #c5c6c7;
@@ -677,6 +689,12 @@ nav label.cancel {
   padding-top: 20px;
 }
 
+@media(max-width:400px){
+  .hero{
+    height:165vh !important
+  }
+}
+
 
 @media (max-width:940px) {
   .menu ul {
@@ -725,13 +743,18 @@ nav label.cancel {
   }
 }
 @media(max-width:575px) {
+  .loader {
+    width: 130px;
+  }
   .hero {
     height: 150vh;
+    justify-content:unset
+
    
 
   }
   .about-me {
-    height: 110vh !important;
+    height: 120vh !important;
     /* padding-top: 100px; */
     /* flex-direction: column-reverse; */
     flex-direction: column;
@@ -783,10 +806,10 @@ nav label.cancel {
     text-align: left;
     height:100vh
   }
-  .menu ul a:hover::after{
+  /* .menu ul a:hover::after{
     width:50%;
     left:100px 
-   }
+   } */
   .hero-content {
     max-width: none;
     text-align: left;
@@ -798,8 +821,8 @@ nav label.cancel {
   .about-me{
     align-items:unset !important;
     column-gap:55px;
-    margin-top:75px;
-    height:100vh !important;
+    margin-top:25px;
+    height:80vh !important;
   }
   /* .contact-section-content{
     flex-direction:column
@@ -863,6 +886,9 @@ nav label.cancel {
   }
   .menu .logo a{
     margin-left:0;
+  }
+  .footer-column {
+    text-align: center;
   }
 }
 

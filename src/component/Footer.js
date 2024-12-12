@@ -35,7 +35,8 @@ const Footer = () => {
       <a href="https://instagram.com/muhammadahbabkhan" target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon icon={faInstagram} />
       </a>
-      <a href="https://linkedin.com/muhammadahbabkhan" target="_blank" rel="noopener noreferrer">
+     
+      <a href="https://www.linkedin.com/in/muhammad-ahbab-khan-669791278/"  target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon icon={faLinkedinIn} />
       </a>
       <a href="https://github.com/ahbabaziz5" target="_blank" rel="noopener noreferrer">
@@ -45,7 +46,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+        <p>&copy; 2024 <span>Muhammad Ahbab Khan.</span> All Rights Reserved.</p>
       </div>
     </footer>
     </div>
