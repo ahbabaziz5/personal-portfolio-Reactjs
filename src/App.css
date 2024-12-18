@@ -747,14 +747,14 @@ nav label.cancel {
     width: 130px;
   }
   .hero {
-    height: 150vh;
+    height: 100vh;
     justify-content:unset
 
    
 
   }
   .about-me {
-    height: 120vh !important;
+    height: 80vh !important;
     /* padding-top: 100px; */
     /* flex-direction: column-reverse; */
     flex-direction: column;
@@ -799,6 +799,11 @@ nav label.cancel {
    left:125px 
   }
 }
+/* @media(max-width:768px){
+  .menu ul a:hover{
+color:gold
+  }
+} */
 @media (min-width: 768px) {
   .hero {
     flex-direction: row;
