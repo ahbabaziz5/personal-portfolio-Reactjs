@@ -448,7 +448,8 @@ nav label.cancel {
   /* width:95%; */
   flex-direction:column;
   /* text-align: center; */
-  padding-bottom: 20px;
+  padding-bottom: 30px;
+  margin-top:20px
 
 }
 .project{
@@ -747,7 +748,7 @@ nav label.cancel {
     width: 130px;
   }
   .hero {
-    height: 100vh;
+    height: 120vh !important;
     justify-content:unset
 
    
@@ -864,7 +865,9 @@ nav label.cancel {
     padding: 15px;
     margin-top:20px
   }
-
+  .extra{
+    display:none
+  }
   .contact-section h2 {
     font-size: 28px;
     margin-bottom: 15px;

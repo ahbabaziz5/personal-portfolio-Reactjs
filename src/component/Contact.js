@@ -85,7 +85,7 @@ function Contact() {
           {status && <p>{status}</p>} {/* Display status */}
         </div>
 
-        <div className="contact-info" data-aos="fade-up">
+        <div className="contact-info extra" data-aos="fade-up">
           <h3>
             Contact <span className="project">Information</span>
           </h3>
