@@ -754,9 +754,8 @@ nav label.cancel {
 
   }
   .about-me {
-    height: 80vh !important;
-    /* padding-top: 100px; */
-    /* flex-direction: column-reverse; */
+    height: 100vh ;
+    
     flex-direction: column;
     justify-content:unset
 
@@ -827,7 +826,7 @@ color:gold
     align-items:unset !important;
     column-gap:55px;
     margin-top:25px;
-    height:80vh !important;
+    height:100vh;
   }
   /* .contact-section-content{
     flex-direction:column
