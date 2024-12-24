@@ -631,9 +631,9 @@ nav label.cancel {
   margin: 0 auto;
 }
 
-.footer-column {
+/* .footer-column {
   text-align: left;
-}
+} */
 
 .footer-column h3 {
   font-size: 1.5rem;
@@ -669,7 +669,7 @@ nav label.cancel {
 
 .social-icons {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   gap: 15px;
 }
 
@@ -842,7 +842,7 @@ nav label.cancel {
     align-items:unset !important;
     column-gap:55px;
     margin-top:25px;
-    height:70vh;
+    height:60vh;
   }
   
  
