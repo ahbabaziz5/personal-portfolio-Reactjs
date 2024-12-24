@@ -485,6 +485,7 @@ nav label.cancel {
 
 .project-info {
   padding: 15px;
+  text-align:center
 }
 
 .project-info h3 {
@@ -672,6 +673,9 @@ nav label.cancel {
   justify-content: center;
   gap: 15px;
 }
+.extrasss{
+  justify-content:flex-start
+}
 
 .social-icons a {
   font-size: 1.5rem;
@@ -748,7 +752,7 @@ nav label.cancel {
     width: 130px;
   }
   .hero {
-    height: 120vh !important;
+    height: 120vh ;
     justify-content:unset
 
    

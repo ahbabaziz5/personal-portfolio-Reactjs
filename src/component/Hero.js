@@ -23,7 +23,7 @@ const Hero = () => {
 
           <p data-aos="fade-up">I'm a Frontend Web Developer with expertise in website and UI design, creating engaging front-end experiences, and much more...</p>
           
-          <div className="social-icons" data-aos="fade-up">
+          <div className="social-icons extrasss" data-aos="fade-up">
             <a href="https://www.facebook.com/ahbab.khan/" aria-label="Facebook">
               <FontAwesomeIcon icon={faFacebookF} />
             </a>
