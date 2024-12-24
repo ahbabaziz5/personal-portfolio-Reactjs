@@ -747,7 +747,7 @@ nav label.cancel {
     width: 130px;
   }
   .hero {
-    height: 115vh !important;
+    height: 100vh;
     justify-content:unset
 
    
@@ -809,7 +809,7 @@ color:gold
     flex-direction: row;
     align-items: center;
     text-align: left;
-    height:60vh
+    height:100vh
   }
   /* .menu ul a:hover::after{
     width:50%;
@@ -827,7 +827,7 @@ color:gold
     align-items:unset !important;
     column-gap:55px;
     margin-top:25px;
-    height:60vh !important;
+    height:80vh !important;
   }
   /* .contact-section-content{
     flex-direction:column
