@@ -25,7 +25,7 @@ const Projects = () => {
   <div className="project-info">
     <h3>News App Website</h3>
     <p>News app created with real-time news API on ReactJS.</p>
-    <a href="https://chimerical-dolphin-0c219a.netlify.app/" className="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
+    <a href="https://react-news-app-jade.vercel.app/" className="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
   </div>
 </div>
 
