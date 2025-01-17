@@ -849,7 +849,9 @@ nav label.cancel {
     height:60vh;
   }
   
- 
+ /* .skillFather{
+  margin-top:150px
+ } */
 }
 /* Small screens (mobile devices) */
 @media (max-width: 600px) {
@@ -969,11 +971,18 @@ nav label.cancel {
   }
   .menu .logo a{
     margin-left:15px;
+  } 
+  .skillFather{
+    margin-top:150px !important
   }
 }
 
 /* Large screens (desktops and larger devices) */
 @media (min-width: 1025px) {
+  .profile-image{
+
+    padding-left:50px
+  }
   .contact-section {
     padding: 40px;
     background-color: black;
