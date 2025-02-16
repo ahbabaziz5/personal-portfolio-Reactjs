@@ -53,14 +53,14 @@ const Projects = () => {
 
 
           {/* Project 4 */}
-          {/* <div className="project-card" data-aos="fade-up" data-aos-delay="400">
-            <img src="./Images/Project.jfif" alt="Project 4" className="project-image" />
+          <div className="project-card" data-aos="fade-up" data-aos-delay="400">
+            <img src="./quiz.png" alt="Project 4" className="project-image" />
             <div className="project-info">
-              <h3>Portfolio Website</h3>
-              <p>A personal portfolio showcasing my skills and work.</p>
-              <a href="#" className="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
+              <h3>Quiz App</h3>
+              <p>The Quiz App lets users sign up, log in, and take quizzes on various topics with secure Firebase authentication and progress tracking.</p>
+              <a href="https://quiz-app-reactjs-phi.vercel.app" className="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
             </div>
-          </div> */}
+          </div>
 
           {/* Project 5 */}
           {/* <div className="project-card" data-aos="fade-up" data-aos-delay="500">

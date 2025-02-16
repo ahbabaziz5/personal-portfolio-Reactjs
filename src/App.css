@@ -88,13 +88,11 @@ nav .menu {
 .menu ul a {
   margin: 0 8px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
   color: whitesmoke;
   font-weight: 500;
   display: inline-flex;
   padding: 10px 12px;
-  /* box-shadow: -3px -3px 7px #ffffff,
-            3px 3px 5px #ceced1; */
   position: relative;
   transition: all 0.3s ease;
 }
@@ -720,7 +718,7 @@ nav label.cancel {
 
   .menu ul a {
     display: block;
-    font-size: 23px;
+    font-size: 18px;
     width: 100%;
     margin-top: 30px;
     box-shadow: none;
@@ -905,7 +903,7 @@ nav label.cancel {
   }
 
   .contact-info ul {
-    font-size: 14px;
+    font-size: 10px;
   }
   .social-icons{
     justify-content: center;;
